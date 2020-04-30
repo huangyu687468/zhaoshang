@@ -14,8 +14,8 @@ from scipy import sparse
 def preProcess():
     path = 'data/'
     print('读取数据...')
-    df_train = pd.read_csv(path + 'xl_tag.csv')
-    df_test = pd.read_csv(path + 'pf_tag.csv')
+    df_train = pd.read_csv(path + 'xunlian_tag.csv')
+    df_test = pd.read_csv(path + 'pingfen_tag.csv')
     print(type(df_train))
     #df_train.replace('-1', 0, inplace=True)
     #df_train.replace('-1', 0, inplace=True)
